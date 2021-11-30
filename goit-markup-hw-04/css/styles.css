@@ -479,13 +479,14 @@ img {
   background: var(--partfolio-btn);
   border-radius: 4px;
   border: none;
-  width: 128px;
+  min-width: 73px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 }
 .filter__button-first {
   border: none;
@@ -511,7 +512,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter :last-child {
+.filter-item:last-child {
   margin-right: 0;
 }
 .filter__button:hover {
