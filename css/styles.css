@@ -115,12 +115,12 @@ img {
   margin-right: 0;
 }
 .navigator__contakt-item {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 50px;
 }
-.navigator__contakt-item::before {
-  background-image: url();
-}
+
 .navigator__contakt-link {
   padding: 32px 0;
 
@@ -227,8 +227,7 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.section__about-item:nth-child(1)::before {
-}
+
 /*-------------aboutus-----------*/
 .section__aboutus {
   padding-top: 0;
@@ -369,8 +368,6 @@ img {
 }
 .footer__adress-item {
   margin-bottom: 9px;
-}
-.footer__adress-list {
 }
 .footer__adress-list :last-child {
   margin-bottom: 0px;
